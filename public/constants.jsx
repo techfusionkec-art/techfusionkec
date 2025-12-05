@@ -344,10 +344,11 @@ export const branches = [
 ];
 
 export const batches = [
-  { label: "2K21", value: "2K21" },
+  
   { label: "2K22", value: "2K22" },
   { label: "2K23", value: "2K23" },
   { label: "2K24", value: "2K24" },
+  { label: "2K25", value: "2K25" }
 ];
 
 export const schools = [
