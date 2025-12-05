@@ -68,7 +68,7 @@ const QueryCard = () => {
                 rel="noopener noreferrer"
                 className="text-sm text-blue-800"
               >
-                +917909023293
+                +917002801036
               </a>
             </div>
           </div>
