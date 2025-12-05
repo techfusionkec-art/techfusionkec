@@ -246,7 +246,7 @@ const RegistrationForm = () => {
     <React.Fragment>
       <div className="w-full p-2 mb-2 text-white text-center bg-blue-950">
         <span className="text-yellow-200">Registration deadline</span>: January
-        8, 2025, by 11:59 PM
+        8, 2026, by 11:59 PM
       </div>
       <div className="text-center mb-4 text-border flex-col">
         <h1
