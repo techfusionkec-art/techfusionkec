@@ -808,7 +808,7 @@ const RegistrationForm = () => {
                           : "Rs. 350/-"} */}
                         {form.watch("college") ===
                         "Katihar Engineering College, Katihar"
-                          ? "Rs. 349/-"
+                          ? "Rs. 329/-"
                           : "Rs. 399/-"}
                       </span>{" "}
                       on below mentioned bank account and upload the screenshot
@@ -819,7 +819,7 @@ const RegistrationForm = () => {
                       </p>
                        <p className="mt-2 p-3 rounded-xl font-bold text-black bg-gradient-to-r from-yellow-200 via-yellow-300 to-yellow-400 shadow-md">
                       Note: Participants can participate in upto{" "}
-                      <b>6 Technical and 4 Cultural events</b>, after paying{" "}
+                      <b>6 Technical and 5 Cultural events</b>, after paying{" "}
                        <b>
                        {form.watch("college") === "Katihar Engineering College, Katihar"
                        ? "Rs. 449/-"
@@ -891,33 +891,26 @@ const RegistrationForm = () => {
                     <p className="font-semibold font-mono">
                       Participant can pay registration fee of{" "}
                       <span className="font-bold">
-                        {/* {form.watch("college") ===
-                          "Katihar Engineering College, Katihar" &&
-                        form.watch("tShirt") === "No"
-                          ? "Rs. 250/-"
-                          : form.watch("college") ===
-                              "Katihar Engineering College, Katihar" &&
-                            form.watch("tShirt") === "Yes"
-                          ? "Rs. 599/-"
-                          : form.watch("college") !=
-                              "Katihar Engineering College, Katihar" &&
-                            form.watch("tShirt") === "No"
-                          ? "Rs. 350/-"
-                          : form.watch("college") !=
-                              "Katihar Engineering College, Katihar" &&
-                            form.watch("tShirt") === "Yes"
-                          ? "Rs. 699/-"
-                          : "Rs. 350/-"} */}
+                        
                         {form.watch("college") ===
                         "Katihar Engineering College, Katihar"
-                          ? "Rs. 250/-"
-                          : "Rs. 350/-"}
+                          ? "Rs. 329/-"
+                          : "Rs. 449/-"}
                       </span>{" "}
                       to Campus Ambassador of their college.
                       <p className="mt-2">
                         Note: This is one time payment and after this user can
-                        participate in upto 5 Technical and 5 Cultural events.
+                        participate in upto <b>4 Technical and 3 Cultural</b> events.
                       </p>
+                       <p className="mt-2 p-3 rounded-xl font-bold text-black bg-gradient-to-r from-yellow-200 via-yellow-300 to-yellow-400 shadow-md">
+                      Note: Participants can participate in upto{" "}
+                      <b>6 Technical and 5 Cultural events</b>, after paying{" "}
+                       <b>
+                       {form.watch("college") === "Katihar Engineering College, Katihar"
+                       ? "Rs. 449/-"
+                       : "Rs. 499/-"}
+                       </b>
+                        </p>
                     </p>
                   </div>
                 </CardContent>
