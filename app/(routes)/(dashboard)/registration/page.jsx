@@ -809,7 +809,7 @@ const RegistrationForm = () => {
                         {form.watch("college") ===
                         "Katihar Engineering College, Katihar"
                           ? "Rs. 329/-"
-                          : "Rs. 449/-"}
+                          : "Rs. 399/-"}
                       </span>{" "}
                       on below mentioned bank account and upload the screenshot
                       of payment.
@@ -822,7 +822,7 @@ const RegistrationForm = () => {
                       <b>6 Technical and 5 Cultural events</b>, after paying{" "}
                        <b>
                        {form.watch("college") === "Katihar Engineering College, Katihar"
-                       ? "Rs. 399/-"
+                       ? "Rs. 449/-"
                        : "Rs. 499/-"}
                        </b>
                        </p>
@@ -895,7 +895,7 @@ const RegistrationForm = () => {
                         {form.watch("college") ===
                         "Katihar Engineering College, Katihar"
                           ? "Rs. 329/-"
-                          : "Rs. 449/-"}
+                          : "Rs. 399/-"}
                       </span>{" "}
                       to Campus Ambassador of their college.
                       <p className="mt-2">
@@ -907,7 +907,7 @@ const RegistrationForm = () => {
                       <b>6 Technical and 5 Cultural events</b>, after paying{" "}
                        <b>
                        {form.watch("college") === "Katihar Engineering College, Katihar"
-                       ? "Rs. 399/-"
+                       ? "Rs. 449/-"
                        : "Rs. 499/-"}
                        </b>
                         </p>
