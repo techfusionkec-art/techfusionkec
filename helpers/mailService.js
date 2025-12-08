@@ -21,7 +21,7 @@ const sendEmail = async (mailOptions) => {
 // Method to send reset password email
 export const sendResetPasswordEmail = async (email, resetUrl) => {
   const mailOptions = {
-    from: { name: "TechFusion'25", address: process.env.GMAIL_USER },
+    from: { name: "TechFusion'26", address: process.env.GMAIL_USER },
     to: email,
     subject: "Reset Your TechFusion Password",
     html: `
@@ -39,7 +39,7 @@ export const sendResetPasswordEmail = async (email, resetUrl) => {
 
         <p>Thank you</p>
         <p><strong>Web Team</strong><br/>
-        TechFusion'25<br/>
+        TechFusion'26<br/>
         Katihar Engineering College, Katihar</p>
       </div>
     `,
@@ -50,7 +50,7 @@ export const sendResetPasswordEmail = async (email, resetUrl) => {
 // Method to send onboarding email
 export const sendOnboardingEmail = async (email, username) => {
   const mailOptions = {
-    from: { name: "TechFusion'25", address: process.env.GMAIL_USER },
+    from: { name: "TechFusion'26", address: process.env.GMAIL_USER },
     to: email,
     subject: "Welcome to TechFusion!",
     html: `
@@ -168,7 +168,7 @@ export const sendOnboardingEmail = async (email, username) => {
                                                                         <div><strong>Dear ${username},</strong></div>
                                                                         <div>&nbsp;</div>
                                                                     </div>
-                                                                    <span><span>Welcome to </span></span>TechFusion'25!
+                                                                    <span><span>Welcome to </span></span>TechFusion'26!
                                                                     We are excited to have you on board. Our platform
                                                                     offers you a seamless way to manage your event
                                                                     participation and explore all that TechFusion has to
