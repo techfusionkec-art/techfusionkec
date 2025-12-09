@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 20
 
-      # If you use pnpm / yarn, change this step accordingly
+      # In order to use pnpm / yarn, change this step accordingly
       - name: Install dependencies
         run: npm install
 
