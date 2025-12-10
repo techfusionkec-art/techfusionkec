@@ -65,19 +65,24 @@ const HeroSection = ({ live }) => {
         /> */}
 
       <Vortex
-        particleCount={400}
+        particleCount={100}
         baseSpeed={0}
         rangeY={1000}
         // baseHue={120}
       >
         <div className="py-20 flex h-full items-center justify-center flex-col lg:py-10">
-          <h1 className="font-extrabold text-5xl md:text-8xl lg:text-9xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+          <h1 className="font-extrabold text-5xl md:text-8xl lg:text-9xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500 animate-gradient">
             TechFusion&apos;26
           </h1>
           <div className="flex flex-col items-center">
-            <p className="text-xl md:text-4xl mb-5 mt-4 underline">
-              10-13 January 2026
-            </p>
+            
+            <p className="text-xl md:text-4xl mb-5 mt-4 flex items-center gap-2">
+  <span className="relative flex h-5 w-5">
+    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+    <span className="relative inline-flex rounded-full h-5 w-5 bg-white"></span>
+  </span>
+  10–13 Jan 2026
+</p>
             {live ? (
               <div>
                 {user ? (

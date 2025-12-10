@@ -109,7 +109,7 @@ export function CampusAmbassadorCreationForm({
       branch: data.branch,
       college: data.college,
       // caId: "KECTF" + "last 2 digit of current year" + "CA" + data.id,
-      caId: "KECTF" + "25" + "CA" + data.id,
+      caId: "KECTF" + "26" + "CA" + data.id,
     };
 
     try {

@@ -21,7 +21,7 @@ const sendEmail = async (mailOptions) => {
 // Method to send reset password email
 export const sendResetPasswordEmail = async (email, resetUrl) => {
   const mailOptions = {
-    from: { name: "TechFusion'25", address: process.env.GMAIL_USER },
+    from: { name: "TechFusion'26", address: process.env.GMAIL_USER },
     to: email,
     subject: "Reset Your TechFusion Password",
     html: `
@@ -39,7 +39,7 @@ export const sendResetPasswordEmail = async (email, resetUrl) => {
 
         <p>Thank you</p>
         <p><strong>Web Team</strong><br/>
-        TechFusion'25<br/>
+        Techfusion'26<br/>
         Katihar Engineering College, Katihar</p>
       </div>
     `,
@@ -50,7 +50,7 @@ export const sendResetPasswordEmail = async (email, resetUrl) => {
 // Method to send onboarding email
 export const sendOnboardingEmail = async (email, username) => {
   const mailOptions = {
-    from: { name: "TechFusion'25", address: process.env.GMAIL_USER },
+    from: { name: "TechFusion'26", address: process.env.GMAIL_USER },
     to: email,
     subject: "Welcome to TechFusion!",
     html: `
@@ -89,7 +89,7 @@ export const sendOnboardingEmail = async (email, username) => {
                                                                                 align="center">
 
                                                                                 <img align="center" border="0"
-                                                                                    src="https://i.imgur.com/GNszCdF.png"
+                                                                                    src="https://drive.google.com/u/0/drive-viewer/AKGpihbQS9K6w6FPHgURi_UrnNTyZLAtUvPhiAFxCEwzw0PZGEQ33oAI7IKc8AJt1W-JA-YEDorbIuAeP-M9NjTkZDGNrzffcLJ_iw=s1600-rw-v1?auditContext=forDisplay"
                                                                                     alt="" title=""
                                                                                     style="outline:none;text-decoration:none;clear:both;display:inline-block!important;border:none;height:auto;float:none;width:60%;max-width:348px"
                                                                                     width="348">
@@ -168,7 +168,7 @@ export const sendOnboardingEmail = async (email, username) => {
                                                                         <div><strong>Dear ${username},</strong></div>
                                                                         <div>&nbsp;</div>
                                                                     </div>
-                                                                    <span><span>Welcome to </span></span>TechFusion'25!
+                                                                    <span><span>Welcome to </span></span>Techfusion'26!
                                                                     We are excited to have you on board. Our platform
                                                                     offers you a seamless way to manage your event
                                                                     participation and explore all that TechFusion has to
@@ -349,7 +349,7 @@ export const sendOnboardingEmail = async (email, username) => {
                                                                     style="margin:0px;line-height:140%;text-align:left;word-wrap:break-word;font-family:arial,helvetica,sans-serif;font-size:14px;font-weight:400">
                                                                     <div>Best regards,</div>
                                                                     <div><strong>Web Team</strong></div>
-                                                                    <div>TechFusion'25</div>
+                                                                    <div>Techfusion'26</div>
                                                                     <div>Katihar Engineering College, Katihar</div>
                                                                 </h1>
 
@@ -565,7 +565,7 @@ export const sendVerificationSuccessfulEmail = async (
   festId
 ) => {
   const mailOptions = {
-    from: { name: "TechFusion'25", address: process.env.GMAIL_USER },
+    from: { name: "Techfusion'26", address: process.env.GMAIL_USER },
     to: email,
     subject: "TechFusion Account Verified!",
     html: `
@@ -573,7 +573,7 @@ export const sendVerificationSuccessfulEmail = async (
         <p>Dear ${username},</p>
 
         <p>Congratulations! Your account has been successfully verified. 
-        Welcome to <strong>TechFusion'25</strong>, your gateway to managing and participating in our exciting events.</p>
+        Welcome to <strong>Techfusion'26</strong>, your gateway to managing and participating in our exciting events.</p>
 
         <p>You can now log in to the platform and explore all the features we offer: 
         <a href="https://techfusion.org.in/sign-in" style="color: #007BFF;">Log in here</a></p>
@@ -591,7 +591,7 @@ export const sendVerificationSuccessfulEmail = async (
 
         <p>Best regards,</p>
         <p><strong>Web Team</strong><br/>
-        TechFusion'25<br/>
+        Techfusion'26<br/>
         Katihar Engineering College, Katihar</p>
       </div>
     `,
@@ -602,7 +602,7 @@ export const sendVerificationSuccessfulEmail = async (
 // Method to send verification rejection email
 export const sendVerificationUnSuccessfulEmail = async (email, username) => {
   const mailOptions = {
-    from: { name: "TechFusion'25", address: process.env.GMAIL_USER },
+    from: { name: "Techfusion'26", address: process.env.GMAIL_USER },
     to: email,
     subject: "TechFusion Account Verification Failed",
     html: `
@@ -627,7 +627,7 @@ export const sendVerificationUnSuccessfulEmail = async (email, username) => {
 
         <p>Best regards,</p>
         <p><strong>Web Team</strong><br/>
-        <strong>TechFusion'25</strong><br/>
+        <strong>Techfusion'26</strong><br/>
         <strong>Katihar Engineering College, Katihar</strong></p>
       </div>
     `,
