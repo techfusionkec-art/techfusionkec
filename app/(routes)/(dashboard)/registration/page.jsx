@@ -895,7 +895,7 @@ const RegistrationForm = () => {
                         {form.watch("college") ===
                         "Katihar Engineering College, Katihar"
                           ? "Rs. 329/-"
-                          : "Rs. 449/-"}
+                          : "Rs. 399/-"}
                       </span>{" "}
                       to Campus Ambassador of their college.
                       <p className="mt-2">
