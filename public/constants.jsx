@@ -922,6 +922,11 @@ export const sponsorData = [
     alt: "kalimandsons",
 
   },
+  {logo: "/assets/tf25/sponsor/citm.png",
+    name: "citm",
+    alt: "citm",
+
+  },
   {logo: "/assets/tf25/sponsor/RelianceDigital.png",
     name: "RelianceDigital",
     alt: "RelianceDigital",
