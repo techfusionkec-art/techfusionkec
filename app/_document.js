@@ -6,9 +6,9 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <title>
-            TechFusion&apos;26 - Katihar Engineering College, Katihar
+            TechFusion&apos;25 - Katihar Engineering College, Katihar
           </title>
-          <meta name="application-name" content="TechFusion'26" />
+          <meta name="application-name" content="TechFusion'25" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
@@ -21,13 +21,13 @@ class MyDocument extends Document {
           <meta name="apple-mobile-web-app-title" content="TechFusion" />
           <meta
             name="description"
-            content="TechFusion'26 - Join Katihar Engineering College, Katihar's annual extravaganza! Four days of innovation, cultural vibrancy, and technical brilliance from Jan 10-13, 2026. Participate in diverse engineering competitions, workshops, and enjoy captivating cultural performances. Total prizes worth Rs 2 Lakhs await!"
+            content="TechFusion'25 - Join Katihar Engineering College, Katihar's annual extravaganza! Four days of innovation, cultural vibrancy, and technical brilliance from Jan 10-13, 2025. Participate in diverse engineering competitions, workshops, and enjoy captivating cultural performances. Total prizes worth Rs 2 Lakhs await!"
           />
           <meta
             name="keywords"
-            content="TechFusion, TechFusion 2026, Katihar Engineering College, Engineering Competitions, Cultural Fest, Innovation, Prizes, Workshops"
+            content="TechFusion, TechFusion 2025, Katihar Engineering College, Engineering Competitions, Cultural Fest, Innovation, Prizes, Workshops"
           />
-          <meta name="author" content="TechFusion'26 Team" />
+          <meta name="author" content="TechFusion'25 Team" />
           <meta name="robots" content="index, follow" />
           <meta charset="UTF-8" />
           <meta
