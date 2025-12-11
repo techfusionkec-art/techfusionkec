@@ -272,7 +272,7 @@ export const ContactUsPage = () => {
             Contact Us
           </h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Have questions? We're here to help you with everything related to TechFusion.
+            Have questions? We@#39;re here to help you with everything related to TechFusion.
           </p>
           <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-cyan-500 mx-auto rounded-full mt-6" />
         </div>
@@ -442,7 +442,7 @@ export const ContactUsPage = () => {
                     How do I register?
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-300">
-                    Register on the website's registration page, fill in the
+                    Register on the website@#39;s registration page, fill in the
                     required details, and make the payment to the provided bank
                     account. Account verification enables enrollment in desired events.
                   </AccordionContent>
