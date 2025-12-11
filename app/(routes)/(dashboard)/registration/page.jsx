@@ -626,7 +626,7 @@ const RegistrationForm = () => {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel className="text-white">
-                    How did you came to know about TechFusion&apos;25?*
+                    How did you came to know about TechFusion&apos;26?*
                   </FormLabel>
                   <Select
                     onValueChange={field.onChange}
@@ -1002,11 +1002,11 @@ const RegistrationForm = () => {
             </p>
             <p>
               Join our WhatsApp group to stay updated with latest information
-              about the TechFusion&apos;25:{" "}
+              about the TechFusion&apos;26:{" "}
               <Badge variant="outline" className=" bg-emerald-100">
                 <a
                   className="flex flex-row items-center underline decoration-double decoration-emerald-400"
-                  href="https://chat.whatsapp.com/Kxfrzt9HuAFGC7bb7zLCWM"
+                  href="https://chat.whatsapp.com/DfkJA6qfVJpLV2tnkoRj4Y"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
