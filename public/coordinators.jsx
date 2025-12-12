@@ -35,29 +35,29 @@ export const eventCoordinators = [
 ];
 
 export const coordinatordetails = [
+  // {
+  //   name: "Kumar Gaurav",
+  //   email: "kgaurav152@gmail.com",
+  //   linkedin: "https://www.linkedin.com/in/kgaurav152",
+  //   instaId: "https://www.instagram.com/kgaurav152",
+  //   pictureUrl: "https://i.imgur.com/vZkbfL0.png",
+  //   mobile: "7004174269",
+  // },
+  // {
+  //   name: "Piyush Priyadarshi",
+  //   email: "piyushjha.code@gmail.com",
+  //   linkedin: "https://www.linkedin.com/in/thepiyushpriyadarshi",
+  //   instaId: "https://www.instagram.com/piyush._.priyadarshi",
+  //   pictureUrl: "https://i.imgur.com/MKEKWpC.jpg",
+  //   mobile: "9572165854",
+  // },
   {
-    name: "Kumar Gaurav",
-    email: "kgaurav152@gmail.com",
-    linkedin: "https://www.linkedin.com/in/kgaurav152",
-    instaId: "https://www.instagram.com/kgaurav152",
-    pictureUrl: "https://i.imgur.com/vZkbfL0.png",
-    mobile: "7004174269",
-  },
-  {
-    name: "Piyush Priyadarshi",
-    email: "piyushjha.code@gmail.com",
-    linkedin: "https://www.linkedin.com/in/thepiyushpriyadarshi",
-    instaId: "https://www.instagram.com/piyush._.priyadarshi",
-    pictureUrl: "https://i.imgur.com/MKEKWpC.jpg",
-    mobile: "9572165854",
-  },
-  {
-    name: "Krishan Raj",
-    email: "krishanraj883@gmail.com",
-    linkedin: "https://linkedin.com/company/tpo-keckatihar",
-    instaId: "https://instagram.com/krishanraj8833",
-    pictureUrl: "https://i.imgur.com/m6v7FtY.jpg",
+    name: "Madhav Kumar",
+    email: "madhavkumar05092005@gmail.com",
+    linkedin: "https://www.linkedin.com/in/madhav-kumar-6759b4264",
+    instaId: "NULL",
+    pictureUrl: "https://res.cloudinary.com/dc21rx5fi/image/upload/v1765403279/madhav_fnoag6.jpg",
     gender: "Male",
-    mobile: "6207366692",
+    mobile: "7856983782",
   },
 ];

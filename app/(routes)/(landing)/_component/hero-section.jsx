@@ -65,7 +65,7 @@ const HeroSection = ({ live }) => {
         /> */}
 
       <Vortex
-        particleCount={100}
+        particleCount={200}
         baseSpeed={0}
         rangeY={1000}
         // baseHue={120}

@@ -56,8 +56,8 @@ const GENERAL_COORDINATORS = [
     id: 1,
     name: "Kshitiz",
     role: "Senior Coordinator",
-    phone: "TBD",
-    avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=Kshitiz&backgroundColor=b6e3f4"
+    phone: "+91 7493904784",
+    avatar: "https://res.cloudinary.com/drk4zzoh1/image/upload/v1765535531/kshitiz_ww3h9z.jpg"
   },
   {
     id: 2,
@@ -272,7 +272,7 @@ export const ContactUsPage = () => {
             Contact Us
           </h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Have questions? We@#39;re here to help you with everything related to TechFusion.
+            Have questions? We&#39;re here to help you with everything related to TechFusion.
           </p>
           <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-cyan-500 mx-auto rounded-full mt-6" />
         </div>
@@ -413,8 +413,10 @@ export const ContactUsPage = () => {
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-300">
                     Participants receive participation certificates. Winners are
-                    awarded merit certificates and cash rewards. The total prize pool
-                    amounts to Rs 2 Lakhs across different events.
+                    awarded merit certificates and cash rewards. 
+                    
+                    {/* The total prize pool
+                    amounts to Rs 2 Lakhs across different events. */}
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2">
@@ -442,7 +444,7 @@ export const ContactUsPage = () => {
                     How do I register?
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-300">
-                    Register on the website@#39;s registration page, fill in the
+                    Register on the website&#39;s registration page, fill in the
                     required details, and make the payment to the provided bank
                     account. Account verification enables enrollment in desired events.
                   </AccordionContent>
