@@ -74,7 +74,7 @@ export const CAPage = () => {
     mapCADetails();
   }, [value]);
 
-  const selectedCP = coordinatordetails.find((cp) => cp.name === "Krishan Raj");
+  const selectedCP = coordinatordetails.find((cp) => cp.name === "Madhav Kumar");
 
   // const mapCAContactDetails = () => {
   //     setCaContactPerson(selectedCP);
