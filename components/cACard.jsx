@@ -18,7 +18,7 @@ function CACard({ data }) {
         <CardTitle className="mb-5 flex ">
           <div className="flex items-center justify-center">
             <img
-              src="/tf26_original.png"
+              src="https://res.cloudinary.com/drk4zzoh1/image/upload/v1765534452/tf26_original_ujcjut.png"
               alt="TechFusion'25 Logo"
               width="w-[120vh]"
             />
