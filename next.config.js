@@ -12,7 +12,7 @@ const nextConfig = {
   },
   images: {
     // Added "imgur.com" to the list
-    domains: ["imgur.com", "i.imgur.com", "images.app.goo.gl", "flic.kr","live.staticflickr.com"]
+    domains: ["imgur.com", "i.imgur.com", "images.app.goo.gl", "flic.kr","live.staticflickr.com","res.cloudinary.com"],
   },
 };
 
