@@ -1006,7 +1006,7 @@ const RegistrationForm = () => {
               <Badge variant="outline" className=" bg-emerald-100">
                 <a
                   className="flex flex-row items-center underline decoration-double decoration-emerald-400"
-                  href="https://chat.whatsapp.com/DfkJA6qfVJpLV2tnkoRj4Y"
+                  href="https://chat.whatsapp.com/Hf8mQWtAE7KHqGHNAFF0a7"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -1037,4 +1037,5 @@ const RegistrationForm = () => {
 };
 
 export default RegistrationForm;
+
 
