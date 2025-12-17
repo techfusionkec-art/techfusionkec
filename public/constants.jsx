@@ -353,61 +353,118 @@ export const batches = [
 
 export const schools = [
   {
-    label: "AAM Children's Academy, Katihar",
-    value: "AAM Children's Academy, Katihar",
-  },
-  {
-    label: "Aditya Public School, Katihar",
-    value: "Aditya Public School, Katihar",
-  },
-  {
-    label: "Colonels Academy, Katihar",
-    value: "Colonels Academy, Katihar",
-  },
-  {
-    label: "Don Bosco School, Katihar",
-    value: "Don Bosco School, Katihar",
-  },
-  {
-    label: "GD Goenka Public School, Purnia",
-    value: "GD Goenka Public School, Purnia",
-  },
-  {
-    label: "Jai Mala Shiksha Niketan, Katihar",
-    value: "Jai Mala Shiksha Niketan, Katihar",
-  },
-  {
-    label: "Mary Immaculate School, Katihar",
-    value: "Mary Immaculate School, Katihar",
-  },
-  {
-    label: "New Pattern International School, Katihar",
-    value: "New Pattern International School, Katihar",
-  },
-  {
-    label: "PM SHREE Jawahar Navodaya Vidyalaya, Katihar",
-    value: "PM SHREE Jawahar Navodaya Vidyalaya, Katihar",
-  },
-  {
-    label: "PM SHREE Kendriya Vidyalaya, Katihar",
-    value: "PM SHREE Kendriya Vidyalaya, Katihar",
-  },
-  {
-    label: "S.B.P Vidya Vihar, Katihar",
-    value: "S.B.P Vidya Vihar, Katihar",
-  },
-  {
-    label: "Scottish Public School, Katihar",
-    value: "Scottish Public School, Katihar",
-  },
-  {
-    label: "S.S. Public School, Katihar",
-    value: "S.S. Public School, Katihar",
-  },
-  {
-    label: "St. Stephen's School, Katihar",
-    value: "St. Stephen's School, Katihar",
-  },
+  label: "Scottish Public School",
+  value: "Scottish Public School",
+},
+{
+  label: "Colonel Academy",
+  value: "Colonel Academy",
+},
+{
+  label: "SBP Vidya Vihar",
+  value: "SBP Vidya Vihar",
+},
+{
+  label: "International East School",
+  value: "International East School",
+},
+{
+  label: "Don Bosco School",
+  value: "Don Bosco School",
+},
+{
+  label: "G D Goenka School",
+  value: "G D Goenka School",
+},
+{
+  label: "Kendriya Vidyalaya",
+  value: "Kendriya Vidyalaya",
+},
+{
+  label: "Teomal World School",
+  value: "Teomal World School",
+},
+{
+  label: "Jai Mala Shiksha Niketan",
+  value: "Jai Mala Shiksha Niketan",
+},
+{
+  label: "New Deep International School",
+  value: "New Deep International School",
+},
+{
+  label: "New Pattern School",
+  value: "New Pattern School",
+},
+{
+  label: "JNV Katihar",
+  value: "JNV Katihar",
+},
+{
+  label: "Ram Krishna Mission",
+  value: "Ram Krishna Mission",
+},
+{
+  label: "AAM Children Academy",
+  value: "AAM Children Academy",
+},
+{
+  label: "St. Karen’s School",
+  value: "St. Karen’s School",
+},
+{
+  label: "Bethel Mission School",
+  value: "Bethel Mission School",
+},
+{
+  label: "Children’s Happy Home",
+  value: "Children’s Happy Home",
+},
+{
+  label: "Genius International School",
+  value: "Genius International School",
+},
+{
+  label: "Gyan Prapti School",
+  value: "Gyan Prapti School",
+},
+{
+  label: "Holy Faith School",
+  value: "Holy Faith School",
+},
+{
+  label: "Glenhill Public School",
+  value: "Glenhill Public School",
+},
+{
+  label: "Narayana Guru Academy",
+  value: "Narayana Guru Academy",
+},
+{
+  label: "St. Stephen's School",
+  value: "St. Stephen's School",
+},
+{
+  label: "S.S. Public School",
+  value: "S.S. Public School",
+},
+{
+  label: "Aditya Public School",
+  value: "Aditya Public School",
+},
+{
+  label: "St. Mary School",
+  value: "St. Mary School",
+},
+{
+  label: "Crescent Public School",
+  value: "Crescent Public School",
+},
+{
+  label: "Scottish Ideal School",
+  value: "Scottish Ideal School",
+},
+
   // {
   //   label: "",
   //   value: "",
