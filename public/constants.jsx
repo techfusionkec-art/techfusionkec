@@ -353,117 +353,117 @@ export const batches = [
 
 export const schools = [
   {
-  label: "Scottish Public School",
-  value: "Scottish Public School",
-},
-{
-  label: "Colonel Academy",
-  value: "Colonel Academy",
-},
-{
-  label: "SBP Vidya Vihar",
-  value: "SBP Vidya Vihar",
-},
-{
-  label: "International East School",
-  value: "International East School",
-},
-{
-  label: "Don Bosco School",
-  value: "Don Bosco School",
-},
-{
-  label: "G D Goenka School",
-  value: "G D Goenka School",
-},
-{
-  label: "Kendriya Vidyalaya",
-  value: "Kendriya Vidyalaya",
-},
-{
-  label: "Teomal World School",
-  value: "Teomal World School",
-},
-{
-  label: "Jai Mala Shiksha Niketan",
-  value: "Jai Mala Shiksha Niketan",
-},
-{
-  label: "New Deep International School",
-  value: "New Deep International School",
-},
-{
-  label: "New Pattern School",
-  value: "New Pattern School",
-},
-{
-  label: "JNV Katihar",
-  value: "JNV Katihar",
-},
-{
-  label: "Ram Krishna Mission",
-  value: "Ram Krishna Mission",
-},
-{
-  label: "AAM Children Academy",
-  value: "AAM Children Academy",
-},
-{
-  label: "St. Karen’s School",
-  value: "St. Karen’s School",
-},
-{
-  label: "Bethel Mission School",
-  value: "Bethel Mission School",
-},
-{
-  label: "Children’s Happy Home",
-  value: "Children’s Happy Home",
-},
-{
-  label: "Genius International School",
-  value: "Genius International School",
-},
-{
-  label: "Gyan Prapti School",
-  value: "Gyan Prapti School",
-},
-{
-  label: "Holy Faith School",
-  value: "Holy Faith School",
-},
-{
-  label: "Glenhill Public School",
-  value: "Glenhill Public School",
-},
-{
-  label: "Narayana Guru Academy",
-  value: "Narayana Guru Academy",
-},
-{
-  label: "St. Stephen's School",
-  value: "St. Stephen's School",
-},
-{
-  label: "S.S. Public School",
-  value: "S.S. Public School",
-},
-{
-  label: "Aditya Public School",
-  value: "Aditya Public School",
-},
-{
-  label: "St. Mary School",
-  value: "St. Mary School",
-},
-{
-  label: "Crescent Public School",
-  value: "Crescent Public School",
-},
-{
-  label: "Scottish Ideal School",
-  value: "Scottish Ideal School",
-},
+    label: "AAM Children Academy",
+    value: "AAM Children Academy",
+  },
+  {
+    label: "Aditya Public School",
+    value: "Aditya Public School",
+  },
+  {
+    label: "Bethel Mission School",
+    value: "Bethel Mission School",
+  },
+  {
+    label: "Children’s Happy Home",
+    value: "Children’s Happy Home",
+  },
+  {
+    label: "Colonel Academy",
+    value: "Colonel Academy",
+  },
+  {
+    label: "Crescent Public School",
+    value: "Crescent Public School",
+  },
+  {
+    label: "Don Bosco School",
+    value: "Don Bosco School",
+  },
+  {
+    label: "G D Goenka School",
+    value: "G D Goenka School",
+  },
+  {
+    label: "Genius International School",
+    value: "Genius International School",
+  },
+  {
+    label: "Glenhill Public School",
+    value: "Glenhill Public School",
+  },
+  {
+    label: "Gyan Prapti School",
+    value: "Gyan Prapti School",
+  },
+  {
+    label: "Holy Faith School",
+    value: "Holy Faith School",
+  },
+  {
+    label: "International East School",
+    value: "International East School",
+  },
+  {
+    label: "Jai Mala Shiksha Niketan",
+    value: "Jai Mala Shiksha Niketan",
+  },
+  {
+    label: "JNV Katihar",
+    value: "JNV Katihar",
+  },
+  {
+    label: "Kendriya Vidyalaya",
+    value: "Kendriya Vidyalaya",
+  },
+  {
+    label: "Narayana Guru Academy",
+    value: "Narayana Guru Academy",
+  },
+  {
+    label: "New Deep International School",
+    value: "New Deep International School",
+  },
+  {
+    label: "New Pattern School",
+    value: "New Pattern School",
+  },
+  {
+    label: "Ram Krishna Mission",
+    value: "Ram Krishna Mission",
+  },
+  {
+    label: "S.S. Public School",
+    value: "S.S. Public School",
+  },
+  {
+    label: "SBP Vidya Vihar",
+    value: "SBP Vidya Vihar",
+  },
+  {
+    label: "Scottish Ideal School",
+    value: "Scottish Ideal School",
+  },
+  {
+    label: "Scottish Public School",
+    value: "Scottish Public School",
+  },
+  {
+    label: "St. Karen’s School",
+    value: "St. Karen’s School",
+  },
+  {
+    label: "St. Mary School",
+    value: "St. Mary School",
+  },
+  {
+    label: "St. Stephen's School",
+    value: "St. Stephen's School",
+  },
+  {
+    label: "Teomal World School",
+    value: "Teomal World School",
+  },
 
   // {
   //   label: "",
