@@ -537,32 +537,32 @@ export const deskManagers = [
 
 export const schoolFacilitators = [
   {
-    label: "Reshav Tiwari-105026", 
-    value: "Reshav Tiwari-105026", 
+    label: "Reshav Tiwari-105026",
+    value: "Reshav Tiwari-105026",
   },
   {
-    label: "Alok Raj-101002", 
-    value: "Alok Raj-101002", 
+    label: "Alok Raj-101002",
+    value: "Alok Raj-101002",
   },
   {
-    label: "Rishav Anand-102014", 
-    value: "Rishav Anand-102014", 
+    label: "Rishav Anand-102014",
+    value: "Rishav Anand-102014",
   },
   {
-    label: "Shambhu Kumar-101050", 
-    value: "Shambhu Kumar-101050", 
+    label: "Shambhu Kumar-101050",
+    value: "Shambhu Kumar-101050",
   },
   {
-    label: "Mithu Sharma-101031", 
-    value: "Mithu Sharma-101031", 
+    label: "Mithu Sharma-101031",
+    value: "Mithu Sharma-101031",
   },
   {
-    label: "Rohit Singh-105051", 
-    value: "Rohit Singh-105051", 
+    label: "Rohit Singh-105051",
+    value: "Rohit Singh-105051",
   },
   {
-    label: "Prince Suman-101020", 
-    value: "Prince Suman-101020", 
+    label: "Prince Suman-101020",
+    value: "Prince Suman-101020",
   },
 ];
 
