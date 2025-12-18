@@ -371,6 +371,13 @@ const RegistrationForm = () => {
                 protect your account.
               </p>
             </div>
+            <div className="mt-4 p-4 rounded-xl bg-yellow-100 border border-yellow-300">
+            <p className="font-semibold text-yellow-900">
+             For a better registration experience or for any payment-related queries,
+             please contact your college Campus Ambassador.
+           </p>
+  
+           </div>
           </CardContent>
         </Card>
       </div>
@@ -1037,5 +1044,6 @@ const RegistrationForm = () => {
 };
 
 export default RegistrationForm;
+
 
 
