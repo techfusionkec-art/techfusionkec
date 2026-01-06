@@ -159,7 +159,7 @@ export const CAPage = () => {
         {value && selectedCampusAmbassador.length > 0 ? (
           <div className="campusAmbassadors">
             <h4 className="text-xl font-bold text-white mb-10 mt-4">
-              TechFusion&apos;26 Campus Ambassdor:
+              TechFusion&apos;26 Campus Ambassador:
             </h4>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {selectedCampusAmbassador.length > 0 &&

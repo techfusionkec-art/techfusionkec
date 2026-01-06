@@ -369,15 +369,16 @@ const RegistrationForm = () => {
               <p className="font-semibold font-mono">
                 Remember your password to avoid password recovery hassle and
                 protect your account.
+             <br/>
+            <br/>
+                To register for single event only, please fill the google form.
+                <br/>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSflCC7tlO-w8Js1I0mTv6nkhKCySbDtSJI2T4q-e5loVD3N0A/viewform?usp=header" target="_blank" rel="noopener noreferrer" style={{textDecoration:"underline",color:"blue"}}>
+                Single Event Registration Form
+                </a>
+
               </p>
             </div>
-            <div className="mt-4 p-4 rounded-xl bg-yellow-100 border border-yellow-300">
-            <p className="font-semibold text-yellow-900">
-             For a better registration experience or for any payment-related queries,
-             please contact your college Campus Ambassador.
-           </p>
-  
-           </div>
           </CardContent>
         </Card>
       </div>
@@ -633,7 +634,7 @@ const RegistrationForm = () => {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel className="text-white">
-                    How did you came to know about TechFusion&apos;26?*
+                    How did you came to know about TechFusion&apos;25?*
                   </FormLabel>
                   <Select
                     onValueChange={field.onChange}
@@ -773,7 +774,7 @@ const RegistrationForm = () => {
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
-                      <SelectItem value="ba">Through Bank Account</SelectItem>
+                      {/* <SelectItem value="ba">Through Bank Account</SelectItem> */}
                       <SelectItem value="ca">
                         Through Campus Ambassador
                       </SelectItem>
@@ -902,7 +903,7 @@ const RegistrationForm = () => {
                         {form.watch("college") ===
                         "Katihar Engineering College, Katihar"
                           ? "Rs. 329/-"
-                          : "Rs. 399/-"}
+                          : "Rs. 449/-"}
                       </span>{" "}
                       to Campus Ambassador of their college.
                       <p className="mt-2">
@@ -1009,11 +1010,11 @@ const RegistrationForm = () => {
             </p>
             <p>
               Join our WhatsApp group to stay updated with latest information
-              about the TechFusion&apos;26:{" "}
+              about the TechFusion&apos;25:{" "}
               <Badge variant="outline" className=" bg-emerald-100">
                 <a
                   className="flex flex-row items-center underline decoration-double decoration-emerald-400"
-                  href="https://chat.whatsapp.com/Hf8mQWtAE7KHqGHNAFF0a7"
+                  href="https://chat.whatsapp.com/Kxfrzt9HuAFGC7bb7zLCWM"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -1044,6 +1045,3 @@ const RegistrationForm = () => {
 };
 
 export default RegistrationForm;
-
-
-
