@@ -369,6 +369,14 @@ const RegistrationForm = () => {
               <p className="font-semibold font-mono">
                 Remember your password to avoid password recovery hassle and
                 protect your account.
+             <br/>
+            <br/>
+                To register for single event only, please fill the google form.
+                <br/>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSflCC7tlO-w8Js1I0mTv6nkhKCySbDtSJI2T4q-e5loVD3N0A/viewform?usp=header" target="_blank" rel="noopener noreferrer" style={{textDecoration:"underline",color:"blue"}}>
+                Single Event Registration Form
+                </a>
+
               </p>
             </div>
           </CardContent>
@@ -766,7 +774,7 @@ const RegistrationForm = () => {
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
-                      <SelectItem value="ba">Through Bank Account</SelectItem>
+                      {/* <SelectItem value="ba">Through Bank Account</SelectItem> */}
                       <SelectItem value="ca">
                         Through Campus Ambassador
                       </SelectItem>

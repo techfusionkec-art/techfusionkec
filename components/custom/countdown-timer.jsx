@@ -17,9 +17,11 @@ export default function CountDownTimer({ registrationCloseTime }) {
   });
   useEffect(() => {
     const targetDate = new Date(registrationCloseTime).getTime();
+    
     const interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = targetDate - now;
+      console.log("Distance:", distance);
       if (distance < 0) {
         clearInterval(interval);
         setTimeRemaining({
@@ -36,6 +38,7 @@ export default function CountDownTimer({ registrationCloseTime }) {
       );
       const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      //console.log({ days, hours, minutes, seconds });
       setTimeRemaining({ days, hours, minutes, seconds });
     }, 1000);
     return () => clearInterval(interval);
