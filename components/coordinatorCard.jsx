@@ -12,6 +12,9 @@ import { FaInstagram, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 
 function CoordinatorCard({ data, eventLabel }) {
+
+  console.log("Coordinator Data:", data);
+  
   return (
     <Card className="mx-auto max-w-xl w-full rounded-lg shadow-md overflow-hidden">
       <div className="p-6 text-center">
