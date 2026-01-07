@@ -353,61 +353,118 @@ export const batches = [
 
 export const schools = [
   {
-    label: "AAM Children's Academy, Katihar",
-    value: "AAM Children's Academy, Katihar",
+    label: "AAM Children Academy",
+    value: "AAM Children Academy",
   },
   {
-    label: "Aditya Public School, Katihar",
-    value: "Aditya Public School, Katihar",
+    label: "Aditya Public School",
+    value: "Aditya Public School",
   },
   {
-    label: "Colonels Academy, Katihar",
-    value: "Colonels Academy, Katihar",
+    label: "Bethel Mission School",
+    value: "Bethel Mission School",
   },
   {
-    label: "Don Bosco School, Katihar",
-    value: "Don Bosco School, Katihar",
+    label: "Children’s Happy Home",
+    value: "Children’s Happy Home",
   },
   {
-    label: "GD Goenka Public School, Purnia",
-    value: "GD Goenka Public School, Purnia",
+    label: "Colonel Academy",
+    value: "Colonel Academy",
   },
   {
-    label: "Jai Mala Shiksha Niketan, Katihar",
-    value: "Jai Mala Shiksha Niketan, Katihar",
+    label: "Crescent Public School",
+    value: "Crescent Public School",
   },
   {
-    label: "Mary Immaculate School, Katihar",
-    value: "Mary Immaculate School, Katihar",
+    label: "Don Bosco School",
+    value: "Don Bosco School",
   },
   {
-    label: "New Pattern International School, Katihar",
-    value: "New Pattern International School, Katihar",
+    label: "G D Goenka School",
+    value: "G D Goenka School",
   },
   {
-    label: "PM SHREE Jawahar Navodaya Vidyalaya, Katihar",
-    value: "PM SHREE Jawahar Navodaya Vidyalaya, Katihar",
+    label: "Genius International School",
+    value: "Genius International School",
   },
   {
-    label: "PM SHREE Kendriya Vidyalaya, Katihar",
-    value: "PM SHREE Kendriya Vidyalaya, Katihar",
+    label: "Glenhill Public School",
+    value: "Glenhill Public School",
   },
   {
-    label: "S.B.P Vidya Vihar, Katihar",
-    value: "S.B.P Vidya Vihar, Katihar",
+    label: "Gyan Prapti School",
+    value: "Gyan Prapti School",
   },
   {
-    label: "Scottish Public School, Katihar",
-    value: "Scottish Public School, Katihar",
+    label: "Holy Faith School",
+    value: "Holy Faith School",
   },
   {
-    label: "S.S. Public School, Katihar",
-    value: "S.S. Public School, Katihar",
+    label: "International East School",
+    value: "International East School",
   },
   {
-    label: "St. Stephen's School, Katihar",
-    value: "St. Stephen's School, Katihar",
+    label: "Jai Mala Shiksha Niketan",
+    value: "Jai Mala Shiksha Niketan",
   },
+  {
+    label: "JNV Katihar",
+    value: "JNV Katihar",
+  },
+  {
+    label: "Kendriya Vidyalaya",
+    value: "Kendriya Vidyalaya",
+  },
+  {
+    label: "Narayana Guru Academy",
+    value: "Narayana Guru Academy",
+  },
+  {
+    label: "New Deep International School",
+    value: "New Deep International School",
+  },
+  {
+    label: "New Pattern School",
+    value: "New Pattern School",
+  },
+  {
+    label: "Ram Krishna Mission",
+    value: "Ram Krishna Mission",
+  },
+  {
+    label: "S.S. Public School",
+    value: "S.S. Public School",
+  },
+  {
+    label: "SBP Vidya Vihar",
+    value: "SBP Vidya Vihar",
+  },
+  {
+    label: "Scottish Ideal School",
+    value: "Scottish Ideal School",
+  },
+  {
+    label: "Scottish Public School",
+    value: "Scottish Public School",
+  },
+  {
+    label: "St. Karen’s School",
+    value: "St. Karen’s School",
+  },
+  {
+    label: "St. Mary School",
+    value: "St. Mary School",
+  },
+  {
+    label: "St. Stephen's School",
+    value: "St. Stephen's School",
+  },
+  {
+    label: "Teomal World School",
+    value: "Teomal World School",
+  },
+
   // {
   //   label: "",
   //   value: "",
@@ -480,56 +537,32 @@ export const deskManagers = [
 
 export const schoolFacilitators = [
   {
-    label: "Abhishek-105026",
-    value: "Abhishek-105026",
+    label: "Reshav Tiwari-105026",
+    value: "Reshav Tiwari-105026",
   },
   {
-    label: "Adarsh-101002",
-    value: "Adarsh-101002",
+    label: "Alok Raj-101002",
+    value: "Alok Raj-101002",
   },
   {
-    label: "Aryan-102014",
-    value: "Aryan-102014",
+    label: "Rishav Anand-102014",
+    value: "Rishav Anand-102014",
   },
   {
-    label: "Chiranjeev-101050",
-    value: "Chiranjeev-101050",
+    label: "Shambhu Kumar-101050",
+    value: "Shambhu Kumar-101050",
   },
   {
-    label: "Krishan-101031",
-    value: "Krishan-101031",
+    label: "Mithu Sharma-101031",
+    value: "Mithu Sharma-101031",
   },
   {
-    label: "Monika-105051",
-    value: "Monika-105051",
+    label: "Rohit Singh-105051",
+    value: "Rohit Singh-105051",
   },
   {
-    label: "Prakash-101020",
-    value: "Prakash-101020",
-  },
-  {
-    label: "RajLakshmi-105039",
-    value: "RajLakshmi-105039",
-  },
-  {
-    label: "Ruchika-110015",
-    value: "Ruchika-110015",
-  },
-  {
-    label: "Sarweshwar-102030",
-    value: "Sarweshwar-102030",
-  },
-  {
-    label: "Tanya-101004",
-    value: "Tanya-101004",
-  },
-  {
-    label: "Tejasvi-101026",
-    value: "Tejasvi-101026",
-  },
-  {
-    label: "Vikram-102921",
-    value: "Vikram-102921",
+    label: "Prince Suman-101020",
+    value: "Prince Suman-101020",
   },
 ];
 
