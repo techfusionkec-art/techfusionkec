@@ -5,40 +5,40 @@ const Sponsors = () => {
   return (
     <section className="my-5">
       <div>
-        <h2 className=" text-5xl mb-10">Sponsors</h2>
-        {/* <div className="flex flex-col items-center mb-8">
+        <h2 className=" text-5xl mb-10">TechFusion 26 Sponsors</h2>
+        <div className="flex flex-col items-center mb-8">
           <h2 className="text-3xl mt-2 mb-12 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             Title Sponsor
           </h2>
           <Image
-            src="/assets/sponsor/chicagoPizza.jpg"
+            src="/assets/sponsor/daisy_dev.jpeg"
             width={550}
             height={140}
-            alt="Chicago Pizza Logo"
+            alt="Daisy Dev Logo"
           />
         </div>
         <div className="flex flex-col items-center mb-8">
           <h2 className="text-2xl mt-2 mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            The Ultimate Electronics Partner
+            The Ultimate Media Partner
           </h2>
           <Image
-            src="/assets/sponsor/RelianceDigital.png"
+            src="/assets/sponsor/sponsor_syncrate.jpeg"
             width={350}
             height={60}
-            alt="Reliance Digital"
+            alt="Syncrate Logo"
           />
         </div>
         <div className="flex flex-col items-center mb-8">
           <h2 className="text-2xl mt-2 mb-8 lg:mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Internship Partner
+            Eyewear Partner
           </h2>
           <Image
-            src="/assets/sponsor/internbee.jpg"
+            src="/assets/sponsor/kalim_sons_sponsor.jpeg"
             width={350}
             height={60}
-            alt="internbee"
+            alt="Kalim and Sons logo"
           />
-        </div> */}
+        </div>
         {/* <div className="flex flex-col items-center mb-8">
           <h2 className="text-2xl mt-2 mb-4 lg:mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             Skill Partner
