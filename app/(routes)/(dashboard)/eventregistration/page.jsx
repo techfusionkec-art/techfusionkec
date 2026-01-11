@@ -206,8 +206,58 @@ const EventRegistrationForm = () => {
               <CardContent>
                 <div className="flex flex-col items-center pt-4">
                   <p className="font-semibold font-mono">
-                    A participant can participate in max. 4 Technical and 3
-                    Cultural events in total.
+                    <table border="1" cellpadding="10" cellspacing="0">
+    <thead>
+        <tr>
+            <th>College Category</th>
+            <th>Fee (&#8377;)</th>
+            <th>Technical Limit</th>
+            <th>Cultural Limit</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">Katihar Engineering College</td>
+            <td>249</td>
+            <td>2</td>
+            <td>2</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>329</td>
+            <td>4</td>
+            <td>3</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>449</td>
+            <td>6</td>
+            <td>5</td>
+            <td>-</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Other Colleges</td>
+            <td>149</td>
+            <td>1</td>
+            <td>1</td>
+            <td>Max 1 Total (Tech OR Cultural)</td>
+        </tr>
+        <tr>
+            <td>399</td>
+            <td>4</td>
+            <td>3</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>499</td>
+            <td>6</td>
+            <td>5</td>
+            <td>-</td>
+        </tr>
+    </tbody>
+</table>
                   </p>
                   {/* {form.watch('event').split('@')[1]==='Individual' && <p className="font-semibold font-mono"></p>} */}
                 </div>
