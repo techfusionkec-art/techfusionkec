@@ -12,16 +12,25 @@ export async function POST(req) {
     const userID = await getDataFromToken(token);
     const user = await User.findById(userID);
 
+    
+
     if (user?.userType !== "coordinator") {
       return NextResponse.json({
         success: false,
         message: "This is protected route for Coordinator's access",
       });
     }
+    
     const coordinator = await Coordinator.findById(
       user?.coordinatorDetails
     ).populate("events");
+
+
+
     const data = coordinator.events;
+
+    console.log(coordinator);
+
     return NextResponse.json({
       success: true,
       message: "All Related Event Fetched Successfully",
