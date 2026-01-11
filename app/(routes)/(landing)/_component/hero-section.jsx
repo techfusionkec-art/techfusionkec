@@ -15,7 +15,7 @@ const HeroSection = ({ live }) => {
 
   const { user } = useSelector((state) => state.profile);
   const [isHovered, setIsHovered] = useState(false);
-  const [eventEnded, setEventEnded] = useState(true);
+  const [eventEnded, setEventEnded] = useState(false);
   const handleClick = (e, path) => {
     e.preventDefault();
     router.push(path);

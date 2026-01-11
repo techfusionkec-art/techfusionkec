@@ -271,12 +271,77 @@ const RegistrationForm = () => {
             </Button>
           </CardContent>
         </Card>
+        <Card>
+          <CardHeader>Participation Fees</CardHeader>
+          <CardContent>
+                       <table 
+  border="1" 
+  cellPadding="4" 
+  cellSpacing="0" 
+  style={{ borderCollapse: 'collapse', width: '100%',marginTop: '20px' }}
+>
+    <thead>
+        <tr style={{ backgroundColor: '#f2f2f2' }}>
+            <th>College Category</th>
+            <th>Fee (&#8377;)</th>
+            <th>Technical Limit</th>
+            <th>Cultural Limit</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        {/* Katihar Engineering College Rows */}
+        <tr>
+            <td rowSpan="3">Katihar Engineering College</td>
+            <td>249</td>
+            <td>2</td>
+            <td>2</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>329</td>
+            <td>4</td>
+            <td>3</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>449</td>
+            <td>6</td>
+            <td>5</td>
+            <td>-</td>
+        </tr>
+
+        {/* Other Colleges Rows */}
+        <tr>
+            <td rowSpan="3">Other Colleges</td>
+            <td>149</td>
+            <td>1</td>
+            <td>1</td>
+            <td>Max 1 Total (Tech OR Cultural)</td>
+        </tr>
+        <tr>
+            <td>399</td>
+            <td>4</td>
+            <td>3</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>499</td>
+            <td>6</td>
+            <td>5</td>
+            <td>-</td>
+        </tr>
+    </tbody>
+</table>
+          </CardContent>
+          </Card>
         <Card className="mx-auto w-4/5 max-w-xl mt-2 mb-2 text-left">
           <CardHeader>
             <CardTitle>For all your queries, feel free to contact:</CardTitle>
             <CardDescription />
           </CardHeader>
           <CardContent className="grid gap-4 lg:gap-2 lg:grid-cols-2">
+            
             <div className="flex items-center justify-between space-x-4">
                          <div className="flex items-center space-x-4">
                            <Avatar>
@@ -361,6 +426,7 @@ const RegistrationForm = () => {
                        </div>
                   </div>
             </div>
+
           </CardContent>
         </Card>
         <Card className="mx-auto w-4/5 max-w-xl mb-8 text-left">
@@ -372,6 +438,8 @@ const RegistrationForm = () => {
             
               
               </p>
+              
+                 
             </div>
           </CardContent>
         </Card>
