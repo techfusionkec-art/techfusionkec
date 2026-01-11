@@ -625,7 +625,7 @@ const RegistrationForm = () => {
                   {form.watch("accomodation") === "Yes" && (
                     <FormDescription>
                       Accomodation is chargable and is not included in the
-                      registration fee, &#8377; 75/day will be collected while
+                      registration fee, &#8377; 80/day will be collected while
                       allotment of room.
                     </FormDescription>
                   )}
