@@ -45,7 +45,7 @@ export async function POST(request) {
 
     //check if user already exists
     const user = await User.findOne({
-      $or: [{ email: email.toLowerCase() }, { mobile: mobile }],
+      $or: [{ email: email.toLowerCase() }],
     });
 
     if (user) {
