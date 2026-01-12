@@ -84,7 +84,7 @@ const HeroSection = ({ live }) => {
   12–14 Jan 2026
 </p>
 <p>
-  <span className="text-md md:text-2xl">Registeration Deadline Extended till : <b>12 Jan, 11:59 AM</b><br/>Participants who registered through google forms must re-enroll to all the events.<br/></span>
+  <span className="text-md md:text-2xl">Registeration Deadline Extended till : <b>12 Jan, 11:59 AM</b><br/>Participants who registered through google forms must re-enroll to all the events.<br/><b className={"text-red-400"}>Google forms are closed now , All participants must register through website only , They will be approved ASAP.</b></span>
 </p>
             {live ? (
               <div>
