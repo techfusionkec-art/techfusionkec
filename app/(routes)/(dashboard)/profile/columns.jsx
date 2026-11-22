@@ -16,7 +16,7 @@ export const columns = (user,setParticipatingEventsData) => [
     cell: ({ row }) => {
       const {participants} = row.original
       return (
-        <p className="">{participants[0].festId}</p>
+        <p className="">{participants?.[0]?.festId || "N/A"}</p>
       )
     },
 
@@ -27,7 +27,7 @@ export const columns = (user,setParticipatingEventsData) => [
     cell: ({ row }) => {
       const {participants} = row.original
       return (
-        <p className="">{participants[0].name}</p>
+        <p className="">{participants[0]?.name}</p>
       )
     },
 

@@ -5,8 +5,8 @@ const Sponsors = () => {
   return (
     <section className="my-5">
       <div>
-        <h2 className=" text-5xl mb-10">TechFusion 26 Sponsors</h2>
-        <div className="flex flex-col items-center mb-8">
+        {/* <h2 className=" text-5xl mb-10">TechFusion 26 Sponsors</h2> */}
+        {/* <div className="flex flex-col items-center mb-8">
           <h2 className="text-3xl mt-2 mb-12 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             Title Sponsor
           </h2>
@@ -38,7 +38,7 @@ const Sponsors = () => {
             height={60}
             alt="Kalim and Sons logo"
           />
-        </div>
+        </div> */}
         {/* <div className="flex flex-col items-center mb-8">
           <h2 className="text-2xl mt-2 mb-4 lg:mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             Skill Partner

@@ -6,11 +6,11 @@ const About = () => {
     <div id="aboutus" className="w-11/12 my-10 mx-auto">
       <NeonGradientCard>
         <h2 className="text-5xl mb-10">About Us</h2>
-        <section className="grid gap-5 lg:grid-cols-2 grid-cols-1">
-          <div className="text-justify text-lg">
+        <section className="w-full">
+          <div className="w-full text-justify text-lg leading-relaxed">
             <p className="md:hidden lg:hidden">
-              TechFusion&apos;26, Katihar Engineering College&apos;s flagship
-              event from January 10th to 13th, 2026, offers an enthralling mix
+              TechFusion&apos;27, Katihar Engineering College&apos;s flagship
+              event that offers an enthralling mix
               of cutting-edge technology, competitions, workshops, and cultural
               festivities.
               <br />
@@ -61,13 +61,13 @@ const About = () => {
               and fervent cultural expression!
             </p>
           </div>
-          <div className="">
+          {/* <div className="">
             <img
               className="w-full rounded-lg h-750 object-cover"
               src="/aboutUs.webp"
               alt="About Us"
             />
-          </div>
+          </div> */}
         </section>
       </NeonGradientCard>
     </div>
