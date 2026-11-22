@@ -72,7 +72,7 @@ const HeroSection = ({ live }) => {
       >
         <div className="py-20 flex h-full items-center justify-center flex-col lg:py-10">
           <h1 className="font-extrabold text-5xl md:text-8xl lg:text-9xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500 animate-gradient">
-            TechFusion&apos;26
+            TechFusion&apos;27
           </h1>
           <div className="flex flex-col items-center">
             
@@ -81,10 +81,10 @@ const HeroSection = ({ live }) => {
     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
     <span className="relative inline-flex rounded-full h-5 w-5 bg-white"></span>
   </span>
-  12–14 Jan 2026
+  {/* 12–14 Jan 2026 */}
 </p>
 <p>
-  <span className="text-md md:text-2xl">Registeration Deadline Extended till : <b>12 Jan, 11:59 AM</b><br/>Participants who registered through google forms must re-enroll to all the events.<br/><b className={"text-red-400"}>Google forms are closed now , All participants must register through website only , They will be approved ASAP.</b></span>
+  <span className="text-md md:text-2xl">Registeration starts soon!</span>
 </p>
             {live ? (
               <div>

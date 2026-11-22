@@ -22,7 +22,7 @@ const TechFusionGlimpse = ({ renderPlace, photos, sponsors }) => {
           `flex justify-center text-5xl text-center leading-normal mb-6 animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`
         )}
       >
-        TechFusion&apos;24 Highlights
+        TechFusion&apos; Past Highlights
       </h2>
 
       <div className="photos-section mb-12">
@@ -52,7 +52,7 @@ const TechFusionGlimpse = ({ renderPlace, photos, sponsors }) => {
             `flex justify-center text-4xl text-center leading-normal mb-12 animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`
           )}
         >
-          TechFusion&apos; 25 & 24  Sponsors
+          TechFusion&apos; Past  Sponsors
         </h3>
         <div className="my-10">
           <Marquee

@@ -17,7 +17,7 @@ export const columns = (setActionSuccess) => [
 
       return (
         <div>
-          <p>{participants[0].festId}</p>
+          <p>{participants?.[0]?.festId || "N/A"}</p>
         </div>
       );
     },
@@ -40,7 +40,7 @@ export const columns = (setActionSuccess) => [
 
       return (
         <div>
-          <p>{participants[0].name}</p>
+          <p>{participants[0]?.name}</p>
         </div>
       );
     },
@@ -76,7 +76,7 @@ export const columns = (setActionSuccess) => [
 
       return (
         <div>
-          <p>{participants[0].mobile}</p>
+          <p>{participants[0]?.mobile}</p>
         </div>
       );
     },
@@ -122,7 +122,7 @@ export const columns = (setActionSuccess) => [
 
       return (
         <div>
-          <p>{participants[0].college}</p>
+          <p>{participants[0]?.college}</p>
         </div>
       );
     },
